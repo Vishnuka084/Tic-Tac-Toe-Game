@@ -2,3 +2,28 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to right, #FEAC5E, #C779D0, #4BC0C8);
 }
+.wrapper{
+    display: grid;
+    place-items: center;
+}
+.title{
+    font-size: 70px;
+    margin: 40px auto 30px auto;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    color: white;
+}
+.cell{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border: 1px solid #C779D0;
+    cursor: pointer;
+    line-height: 150px;
+    font-size: 100px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
